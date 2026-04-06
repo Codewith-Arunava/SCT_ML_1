@@ -3,7 +3,7 @@ import pickle as PK
 import streamlit as st
 
 model = PK.load(open('C:\python\house price prediction ML project\House_Prediction_Model.pkl', 'rb'))                       
-
+ 
 st.header("House Price Prediction App")
 
 st.header('kolkata house prices predictor')
